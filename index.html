@@ -5,93 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>deepextract.ai | Intelligent Data Extraction</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Roboto', sans-serif;
-    }
-    body {
-      background-color: #ffffff;
-      color: #333333;
-    }
-    header {
-      background-color: #001b3d;
-      padding: 20px 40px;
-      color: white;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    nav a {
-      margin: 0 15px;
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    .hero {
-      background-color: #f4f7fb;
-      padding: 80px 40px;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 48px;
-      margin-bottom: 20px;
-    }
-    .hero p {
-      font-size: 20px;
-      max-width: 600px;
-      margin: 0 auto 30px;
-      color: #555;
-    }
-    .btn-demo {
-      background-color: #004aad;
-      color: white;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    .section {
-      padding: 60px 40px;
-      text-align: center;
-    }
-    .section h2 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
-    footer {
-      background-color: #001b3d;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    form {
-      max-width: 500px;
-      margin: 0 auto;
-      text-align: left;
-    }
-    label, input, textarea {
-      display: block;
-      width: 100%;
-      margin-bottom: 15px;
-    }
-    input, textarea {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    .btn-submit {
-      background-color: #004aad;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-  </style>
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
   <header>
@@ -105,29 +20,51 @@
     </nav>    
   </header>
 
-  <section class="hero" id="home">
-    <h1>AI-Powered Data Extraction at Scale</h1>
-    <p>Transforming raw data into actionable insights using state-of-the-art AI models built for enterprise needs.</p>
-    <a href="#demo"><button class="btn-demo">Request a Demo</button></a>
+  <section class="hero animate__animated animate__fadeIn" id="home">
+    <h1 class="animate__animated animate__fadeInLeft">Unlock the Value of Your Data with AI</h1>
+    <p class="animate__animated animate__fadeInRight">
+      Empower your business with intelligent document processing. Extract, understand, and act on information from any document, image, or unstructured data source—at scale.
+    </p>
+    <div class="hero-cards">
+      <div class="hero-card glass animate__animated animate__zoomIn">
+        <h3>AI-Powered Understanding</h3>
+        <p>Leverage advanced natural language processing and computer vision to comprehend and extract meaning from complex documents.</p>
+      </div>
+      <div class="hero-card glass animate__animated animate__zoomIn" style="animation-delay:0.2s;">
+        <h3>Seamless Automation</h3>
+        <p>Automate repetitive tasks and workflows, freeing your teams to focus on high-value activities and innovation.</p>
+      </div>
+      <div class="hero-card glass animate__animated animate__zoomIn" style="animation-delay:0.4s;">
+        <h3>Enterprise-Ready Solutions</h3>
+        <p>Integrate with your existing systems and ensure security, scalability, and compliance for mission-critical operations.</p>
+      </div>
+    </div>
+    <a href="#demo"><button class="btn-demo animate__animated animate__pulse animate__infinite">Request a Demo</button></a>
   </section>
 
-  <section class="section" id="about">
-    <h2>About Us</h2>
-    <p>deepextract.ai is a pioneer in intelligent document and data processing. Our mission is to simplify complex data workflows through automation and AI.</p>
+  <section class="section animate__animated animate__fadeInUp" id="why-deepextract">
+    <h2>Why deepextract.ai?</h2>
+    <div class="why-cards">
+      <div class="why-card">
+        <h4>Unmatched Accuracy</h4>
+        <p>Our AI models deliver industry-leading precision in extracting and classifying data from even the most complex documents.</p>
+      </div>
+      <div class="why-card">
+        <h4>Rapid Deployment</h4>
+        <p>Get started quickly with cloud-based or on-premise solutions that fit your business needs and IT environment.</p>
+      </div>
+      <div class="why-card">
+        <h4>Continuous Innovation</h4>
+        <p>We constantly evolve our platform with the latest advancements in AI, NLP, and automation to keep you ahead.</p>
+      </div>
+    </div>
   </section>
 
-  <section class="section" id="solutions">
-    <h2>Solutions</h2>
-    <p>We offer enterprise-grade solutions for invoice processing, document classification, knowledge extraction, and more — all powered by deep learning and NLP.</p>
-  </section>
-
-  <section class="section" id="resources">
-    <h2>Resources</h2>
-    <p>Explore whitepapers, case studies, and technical guides to learn how deepextract.ai is transforming industries through intelligent automation.</p>
-  </section>
-
-  <section class="section" id="demo">
+  <section class="section animate__animated animate__fadeInUp" id="demo">
     <h2>Request a Demo</h2>
+    <p>
+      Discover how deepextract.ai can revolutionize your data extraction processes. Fill out the form below, and our team will reach out to schedule a personalized demonstration tailored to your business needs.
+    </p>
     <form>
       <label for="name">Full Name</label>
       <input type="text" id="name" name="name" required />
@@ -138,7 +75,7 @@
       <label for="message">Message</label>
       <textarea id="message" name="message" rows="5" required></textarea>
 
-      <button type="submit" class="btn-submit">Submit Request</button>
+      <button type="submit" class="btn-submit animate__animated animate__pulse animate__infinite">Submit Request</button>
     </form>
   </section>
 
