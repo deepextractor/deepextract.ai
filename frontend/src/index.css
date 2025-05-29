@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root, #main {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #000;
+  color: #00fff7;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#main {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  flex: 1 1 auto;
+}
+
+/* Make sure all main containers take full height */
+footer {
+  margin-top: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #00fff7 0%, #39ff14 100%);
+  border-radius: 8px;
+}
+
+/* Neon-on-black custom animation and accent classes */
+
+/* Fade in */
+.animate-fadein {
+  animation: fadein 1.2s cubic-bezier(0.4,0,0.2,1) both;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Slide in (upwards) */
+.animate-slidein {
+  animation: slidein 1.2s cubic-bezier(0.4,0,0.2,1) both;
+}
+@keyframes slidein {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Border pulse (neon blue/green) */
+.animate-borderPulse {
+  animation: borderPulse 1.5s infinite alternate;
+}
+@keyframes borderPulse {
+  0% { box-shadow: 0 0 0 0 #00fff7, 0 0 8px 2px #39ff14; border-color: #00fff7; }
+  100% { box-shadow: 0 0 16px 4px #39ff14, 0 0 32px 8px #00fff7; border-color: #39ff14; }
+}
+
+/* Card glow (neon green) */
+.animate-cardGlow {
+  animation: cardGlow 2s infinite alternate;
+}
+@keyframes cardGlow {
+  0% { box-shadow: 0 0 8px 2px #39ff14, 0 0 0 0 #00fff7; }
+  100% { box-shadow: 0 0 24px 8px #39ff14, 0 0 8px 2px #00fff7; }
+}
+
+/* Neon green text glow */
+.neon-glow-green {
+  text-shadow: 0 0 8px #39ff14, 0 0 16px #39ff14, 0 0 2px #00fff7;
+}
+
+/* Flicker effect (for neon text) */
+.animate-flicker {
+  animation: flicker 2.5s infinite alternate;
+}
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+    text-shadow: 0 0 8px #39ff14, 0 0 16px #00fff7, 0 0 2px #39ff14;
+  }
+  20%, 22%, 24%, 55% {
+    opacity: 0.7;
+    text-shadow: 0 0 2px #39ff14, 0 0 4px #00fff7;
+  }
+}
+
+/* Image pulse (for images) */
+.animate-imgPulse {
+  animation: imgPulse 2.5s infinite alternate;
+}
+@keyframes imgPulse {
+  0% { box-shadow: 0 0 0 0 #00fff7; }
+  100% { box-shadow: 0 0 32px 8px #00fff7; }
+}
+
+/* Utility: neon blue/green border */
+.neon-border {
+  border: 2px solid #00fff7;
+  box-shadow: 0 0 8px #00fff7, 0 0 16px #39ff14;
+}
+
+/* Utility: neon blue/green background glow */
+.neon-bg-glow {
+  background: rgba(0,255,247,0.08);
+  box-shadow: 0 0 24px 4px #00fff7, 0 0 32px 8px #39ff14;
+}
+
+/* Responsive: ensure animations look good on all screens */
+@media (max-width: 600px) {
+  .animate-fadein, .animate-slidein, .animate-borderPulse, .animate-cardGlow, .animate-flicker, .animate-imgPulse {
+    animation-duration: 0.9s !important;
+  }
+}
