@@ -30,10 +30,10 @@ const HeroSection = () => (
       <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition"><img src="/github.svg" alt="GitHub" className="w-8 h-8" /></a>
     </div>
     <a
-      href="#eidenai"
+      href="#ExtractorAI"
       className="inline-block px-10 py-4 rounded-xl bg-[#00fff7] text-black font-bold shadow-lg hover:bg-[#39ff14] hover:text-black transition text-xl border-2 border-[#39ff14]"
     >
-      Discover EidenAI Suite
+      Discover ExtractorAI Suite
     </a>
   </motion.section>
 );

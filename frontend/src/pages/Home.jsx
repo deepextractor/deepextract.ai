@@ -55,9 +55,9 @@ const Home = () => (
 		{/* Hero Section */}
 		<HeroSection />
 
-		{/* EidenAI Suite Section */}
+		{/* ExtractorAI Suite Section */}
 		<motion.section
-			id="eidenai"
+			id="ExtractorAI"
 			className="bg-black rounded-2xl shadow-xl p-8 text-center border border-[#00fff7] mt-8"
 			initial={{ opacity: 0, y: 40 }}
 			whileInView={{ opacity: 1, y: 0 }}
