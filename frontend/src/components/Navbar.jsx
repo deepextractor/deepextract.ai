@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="w-full z-50 sticky top-0 shadow-lg bg-black text-[#00fff7] py-3 px-6 border-b-2 border-[#00fff7]">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <img src="/logo192.png" alt="Logo" className="w-10 h-10 rounded-full border-2 border-[#39ff14] bg-black shadow" />
+          <img src="/animated_logo_neon.gif" alt="Logo" className="w-10 h-10 rounded-full border-2 border-[#39ff14] bg-black shadow" />
           <span className="text-2xl font-extrabold text-[#39ff14] tracking-tight drop-shadow">DeepExtract.AI</span>
         </div>
         <ul className="flex gap-6 md:gap-10 text-lg font-semibold">

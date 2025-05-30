@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Footer from '../components/Footer';
 
 const About = () => (
 	<div className="min-h-screen w-full flex flex-col items-center justify-start bg-black text-[#00fff7] px-2 md:px-8 lg:px-24 xl:px-48 2xl:px-64 overflow-x-hidden">
@@ -76,8 +77,8 @@ const About = () => (
 				</p>
 			</div>
 			<motion.img
-				src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80"
-				alt="AI Team"
+				src="/animated_logo_neon.gif"
+				alt="AI Team Logo"
 				className="rounded-2xl shadow-lg w-full h-64 object-cover object-center border-4 border-[#00fff7]/40"
 				initial={{ scale: 0.9, opacity: 0 }}
 				whileInView={{ scale: 1, opacity: 1 }}
@@ -261,6 +262,8 @@ const About = () => (
 				client.
 			</p>
 		</motion.section>
+
+		<Footer />
 	</div>
 );
 

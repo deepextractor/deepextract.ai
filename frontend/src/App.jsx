@@ -22,7 +22,7 @@ export default function App() {
 
   return (
     <Router>
-      <div id="main" className="bg-gradient-to-tr from-indigo-900 via-purple-900 to-pink-900 text-white font-sans">
+      <div id="main" className="bg-gradient-to-tr from-black via-black to-black text-white font-sans">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -30,9 +30,6 @@ export default function App() {
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/contact" element={<Contacts />} />
         </Routes>
-        <footer className="text-center py-10 bg-white/10 backdrop-blur-sm">
-          <p>&copy; 2025 DeepExtract.AI. All rights reserved.</p>
-        </footer>
       </div>
     </Router>
   );

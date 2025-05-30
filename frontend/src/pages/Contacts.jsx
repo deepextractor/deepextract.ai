@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Footer from '../components/Footer';
 
 const Contacts = () => (
   <motion.section
@@ -28,6 +29,7 @@ const Contacts = () => (
         </button>
       </form>
     </div>
+    <Footer />
   </motion.section>
 );
 

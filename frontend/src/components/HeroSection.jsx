@@ -9,7 +9,7 @@ const HeroSection = () => (
     transition={{ duration: 0.8 }}
   >
     <img
-      src="/logo192.png"
+      src="/animated_logo_neon.gif"
       alt="DeepExtract.AI Logo"
       className="mx-auto w-28 h-28 mb-8 rounded-full border-4 border-[#39ff14] bg-black drop-shadow-2xl"
     />

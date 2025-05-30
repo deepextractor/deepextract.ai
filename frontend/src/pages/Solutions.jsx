@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Footer from '../components/Footer';
 
 const Solutions = () => (
   <div className="p-8 max-w-5xl mx-auto space-y-16 bg-black min-h-screen">
@@ -55,8 +56,8 @@ const Solutions = () => (
         viewport={{ once: true }}
       >
         <img
-          src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80"
-          alt="AI Solutions"
+          src="/animated_logo_neon.gif"
+          alt="AI Solutions Logo"
           className="rounded-2xl shadow-lg w-full h-72 object-cover object-center border-4 border-[#00fff7]/40"
         />
       </motion.div>
@@ -97,8 +98,8 @@ const Solutions = () => (
         viewport={{ once: true }}
       >
         <img
-          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
-          alt="Hybrid AI"
+          src="/animated_logo_neon.gif"
+          alt="Hybrid AI Logo"
           className="rounded-2xl shadow-lg w-full h-72 object-cover object-center border-4 border-[#00fff7]/40"
         />
       </motion.div>
@@ -178,6 +179,8 @@ const Solutions = () => (
         </div>
       </div>
     </motion.section>
+
+    <Footer />
   </div>
 );
 
