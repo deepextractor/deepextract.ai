@@ -12,13 +12,13 @@ const Solutions = () => (
       transition={{ duration: 0.8 }}
     >
       <h1 className="text-5xl font-extrabold mb-4 neon-glow-green">
-        EidenAI Suite: Enterprise AI solutions designed for your needs, your industry
+        ExtractorAI Suite: Enterprise AI solutions designed for your needs, your industry
       </h1>
       <p className="text-xl max-w-3xl mx-auto mb-4 text-[#00fff7]">
         A new standard for solving complex AI adoption challenges. We help organizations transform how they access and apply knowledge through intelligent, purpose-built artificial intelligence.
       </p>
       <p className="text-lg max-w-2xl mx-auto text-[#00fff7]/80">
-        EidenAI Suite delivers comprehensive, ready-to-deploy enterprise AI solutions tailored to your industry. It’s a unique combination: deep business process expertise, vertical market specialization, solid industry experience. EidenAI Suite puts your organization at the center, delivering cutting-edge technology and intelligent solutions to maximize business performance.
+        ExtractorAI Suite delivers comprehensive, ready-to-deploy enterprise AI solutions tailored to your industry. It’s a unique combination: deep business process expertise, vertical market specialization, solid industry experience. ExtractorAI Suite puts your organization at the center, delivering cutting-edge technology and intelligent solutions to maximize business performance.
       </p>
     </motion.section>
 
@@ -72,13 +72,13 @@ const Solutions = () => (
       viewport={{ once: true }}
     >
       <h2 className="text-3xl font-bold mb-4 neon-glow-green">
-        Eidénai - from ancient Greek, “to know, to understand”
+        ExtractorAI - from ancient Greek, “to know, to understand”
       </h2>
       <p className="text-lg max-w-2xl mx-auto mb-4 text-[#00fff7]">
         Our vision is clear: AI should not just solve problems, it should transform data into accessible knowledge and tangible business value.
       </p>
       <p className="text-[#00fff7]/80">
-        Starting with a deep understanding of your industry, EidenAI Suite helps you build an ecosystem where innovation and insight work hand in hand, and where technology, expertise and people work together in synergy to generate real value.
+        Starting with a deep understanding of your industry, ExtractorAI Suite helps you build an ecosystem where innovation and insight work hand in hand, and where technology, expertise and people work together in synergy to generate real value.
       </p>
     </motion.section>
 
@@ -106,11 +106,11 @@ const Solutions = () => (
       <div>
         <h2 className="text-2xl font-bold mb-2 neon-glow-green">AI evolves. Your needs stay at the center.</h2>
         <p className="text-[#00fff7]/80 mb-2">
-          EidenAI Suite is built around you. Our sustainable, explainable Hybrid AI approach prioritizes your operational requirements, turning technology into a strategic ally. While AI technologies continue to evolve, our unwavering focus on meeting your needs never changes.
+          ExtractorAI Suite is built around you. Our sustainable, explainable Hybrid AI approach prioritizes your operational requirements, turning technology into a strategic ally. While AI technologies continue to evolve, our unwavering focus on meeting your needs never changes.
         </p>
         <h2 className="text-2xl font-bold mb-2 neon-glow-green">A smarter way to apply AI — and do it right</h2>
         <p className="text-[#00fff7]/80">
-          EidenAI Suite seamlessly integrates the most advanced technologies — from neurosymbolic artificial intelligence to Large Language Models, from Generative AI to Agentic AI — into a modular and flexible suite designed to generate visible and immediate impact on business processes.
+          ExtractorAI Suite seamlessly integrates the most advanced technologies — from neurosymbolic artificial intelligence to Large Language Models, from Generative AI to Agentic AI — into a modular and flexible suite designed to generate visible and immediate impact on business processes.
         </p>
       </div>
     </motion.section>
@@ -125,7 +125,7 @@ const Solutions = () => (
     >
       <h2 className="text-2xl font-bold mb-4 neon-glow-green">Wherever you need it, with maximum flexibility and integration</h2>
       <p className="text-lg max-w-2xl mx-auto mb-4 text-[#00fff7]">
-        EidenAI Suite is available as SaaS on public cloud, private cloud and/or as an on-premises license, providing maximum flexibility and smooth integration with your existing infrastructure and workflows.
+        ExtractorAI Suite is available as SaaS on public cloud, private cloud and/or as an on-premises license, providing maximum flexibility and smooth integration with your existing infrastructure and workflows.
       </p>
       <p className="text-[#00fff7]/80">
         Thanks to its modular architecture, we help you quickly start pilot projects and expand your solutions in a scalable way, supporting your organization’s AI journey without disrupting business continuity.
@@ -140,7 +140,7 @@ const Solutions = () => (
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <h2 className="text-2xl font-bold mb-4 neon-glow-green">Who EidenAI Suite is for</h2>
+      <h2 className="text-2xl font-bold mb-4 neon-glow-green">Who ExtractorAI Suite is for</h2>
       <div className="flex flex-wrap justify-center gap-6">
         <span className="bg-[#111] px-6 py-3 rounded-xl text-lg font-semibold text-[#00fff7] border-2 neon-border shadow">Insurance</span>
         <span className="bg-[#111] px-6 py-3 rounded-xl text-lg font-semibold text-[#39ff14] border-2 neon-border shadow">Pharma & Life Sciences</span>

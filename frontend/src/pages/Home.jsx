@@ -64,14 +64,14 @@ const Home = () => (
 			transition={{ duration: 0.8 }}
 			viewport={{ once: true }}
 		>
-			<h2 className="text-3xl font-bold mb-4 text-[#39ff14]">EidenAI Suite</h2>
+			<h2 className="text-3xl font-bold mb-4 text-[#39ff14]">ExtractorAI Suite</h2>
 			<p className="text-lg max-w-2xl mx-auto mb-4 text-[#00fff7]">
-				Enterprise AI solutions designed for your industry. EidenAI Suite offers a
+				Enterprise AI solutions designed for your industry. ExtractorAI Suite offers a
 				comprehensive suite of fully deployable and tailored AI solutions designed
 				to meet the specific needs of any industry.
 			</p>
 			<p className="mb-4 text-[#00fff7]/80">
-				With EidenAI Suite, we go beyond data: We help you create an ecosystem
+				With ExtractorAI Suite, we go beyond data: We help you create an ecosystem
 				where AI and people work together to generate business value. Empower your
 				organization to achieve real, measurable results.
 			</p>
@@ -134,7 +134,7 @@ const Home = () => (
 			transition={{ duration: 0.8 }}
 			viewport={{ once: true }}
 		>
-			<h2 className="text-2xl font-bold mb-4 text-[#39ff14]">Why expert.ai?</h2>
+			<h2 className="text-2xl font-bold mb-4 neon-glow-green">Why deepextract.ai?</h2>
 			<p className="text-lg max-w-2xl mx-auto mb-4 text-[#00fff7]">
 				A proven framework for innovation. A unique value proposition. We are
 				experts in enterprise AI solutions designed to generate business value.

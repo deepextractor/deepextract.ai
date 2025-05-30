@@ -9,7 +9,7 @@ const Footer = () => (
         className="w-12 h-12 rounded-full border-2 border-[#39ff14] bg-black"
       />
       <p className="text-sm text-[#00fff7]">
-        Copyright @ 2025 Expert.ai - All Rights Reserved
+        Copyright @ 2025 DeepExtract.ai - All Rights Reserved
       </p>
       <div className="flex flex-wrap gap-4 justify-center text-xs text-[#39ff14]">
         <a href="#" className="hover:text-[#00fff7] hover:underline">Terms of use</a>
